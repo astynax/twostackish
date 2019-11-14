@@ -1,0 +1,15 @@
+cabal-version:  2.2
+
+name:           twostackish
+version:        0.1.0
+license:        BSD-3-Clause
+license-files:  LICENSE
+copyright:      (c) 2019 Aleksei Pirogov
+
+executable twostackish
+  main-is: Main.hs
+  other-modules:
+      Paths_twostackish
+  build-depends:
+      base >= 4.12.0.0 && < 4.13.0.0
+  default-language: Haskell2010
